@@ -366,6 +366,13 @@ h5{
     padding: 2vw;
 }
 /*Page6*/
+.page6{
+    display: flex;
+    justify-content: center;
+}
+.section_page6{
+    width: 88.87vw;
+}
 h6{
     color: #000;
     font-family: 'Tilt Neon', sans-serif;
@@ -378,14 +385,165 @@ h6{
     justify-content: center;
     margin-bottom: 3.367vw;
 }
+.opross{
+    margin-top: 3vw;
+}
+.opros{
+    margin-bottom: 1.76vw;
+    display: flex;
+    align-items: center;
+}
+.check_box{
+    margin-left: 30vw;
+    width: 2.56vw;
+    height: 2.49vw;
+    fill: #FEC22E;
+    background-color: #FEC22E;
+}
+.opross>.submit{
+    margin-left: 40%;
+    width: 18.59vw;
+    height: 4.76vw;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.54vw;
+}
 .text_page6{
     color: #000;
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.opros_text{
+    margin-left: 4%;
+}
+.opros_text{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.2%; /* 41.55px */
+}
+.opross>p{
+    color: #A1A1A1;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.opross>p{
+    color: #A1A1A1;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10.47vw;
+}
+input[type='checkbox'] {
+    position: relative;
+    background-color: #FEC22E;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-radius: 2vw;
+  }
+
+  input[type='checkbox']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  
+  input[type='checkbox']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+  }
+/*Page7*/
+.page7{
+    background: #FEC22E;
+}
+section>h5{
+    display: flex;
+    align-items: center;
+    color: #BA3133;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 1.719vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    font-size: 33px; 
+}
+.cards_page7{
+    width: 97.80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-around;
+    padding-bottom: 8.42vw;
+}
+.card_page7>img{
+    margin-left: 0.73vw;
+}
+.card_page7>p{
+
+}
+.card_page7{
+    width: 23.35vw;
+    height: 8.78vw;
+    background-color: #FFF;
+    margin-top: 2.34vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px; 
+}
+.card_text1{
+    color: #BA3133;
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card_text2{
+    color: #5F5F5F;
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card_text_pag7{
+    font-size: 1.318vw;
 }
 /*footer*/
 footer{
