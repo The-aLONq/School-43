@@ -20,10 +20,126 @@ header{
 .wrapper>.invalid{
     display: none;
 }
-.burger{
-    width: 1.567vw;
-    height: 0.895vw;
-    margin-left: 6vw
+.burger-wrapper {
+    margin-left: 3vw;
+}
+
+#menu__toggle {
+    display: none;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+    display: flex;
+    position: absolute;
+    left: 6vw;
+    margin-left: 5vw;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* добавляем "гамбургер" */
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+        position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.burger-menu {
+    opacity: 0;
+    transition: 400ms;
+    background-color: #FFF;
+    position: absolute;
+    top: 5.3vw;
+    width: 70vw;
+}
+#menu__toggle:checked~.burger-menu{
+    opacity: 1;
+    background-color: #f0f0f0;
+    padding: 2vw;
+}
+.text_burger1{
+    width: 30vw;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.123vw;
+}
+.text_burger2{
+    width: 35vw;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    line-height: 2.123vw;
+}
+.text_burger1>li>h2{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    width: auto;
+    height: 4.3vw;
+}
+.text_burger1>li>a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.text_burger2>li>h2{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_burger2>li>a{
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    line-height: 2.196vw;
+}
+.burger-menu ul {
+    display: flex;
 }
 .logo_head{
     width: 3.385vw;
@@ -48,13 +164,13 @@ nav{
     left: 0.833vw;
 }
 .text_header_1{
-    margin-left: 7vw;
+    margin-left: 11vw;
 }
 .search{
     width: 1.538vw;
     height: 1.358vw;
     transform: rotate(0.031deg);
-    margin-left: 6vw;
+    margin-left: 7vw;
 }
 ul{
     display: flex;
@@ -62,7 +178,7 @@ ul{
     flex-direction: row;
 }
 .invalid{
-    margin-left: 6vw;
+    margin-left: 7vw;
 }
 /*page1*/
 body{
@@ -81,9 +197,8 @@ h2{
     text-align: left;
 }
 .owl-nav{
-    font-size: 15vw;
-    height: 0
-    ;
+    font-size: 13vw;
+    height: 0;
 }
 .owl-prev span{
     position: absolute;
@@ -146,7 +261,7 @@ h3{
     background-image: url('../logo/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vw;
+    height: 43vw;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -507,8 +622,7 @@ input[type='checkbox'] {
     background-color: red;
     transform: translate(-50%, -50%);
     visibility: visible;
-  }
-  
+}
 /*Page7*/
 .page7{
     background: #FEC22E;
@@ -526,13 +640,14 @@ section>h5{
     font-size: 33px; 
 }
 .cards_page7{
-    width: 97.80vw;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: stretch;
     justify-content: space-around;
+    width: 97.8vw;
     padding-bottom: 8.42vw;
+}
+.cards_page7>a{
+    text-decoration: none;
 }
 .card_page7>img{
     margin-left: 0.73vw;
@@ -555,6 +670,7 @@ section>h5{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 1vw;
 }
 .card_text2{
     color: #5F5F5F;

@@ -23,9 +23,45 @@
             <a href="./index.html">
                 <img class="logo_head" src="./logo/logo_header.png">
             </a>
-            <a href="">
-                <img src="./logo/header__burger.png" class="burger">
-            </a>
+            <div class="burger-wrapper"><input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <nav class="burger-menu">
+                    <ul>
+                        <div class="text_burger1">
+                            <li>
+                                <h2>Сведения об образовательной организации</h2>
+                            </li>
+                            <li><a href="#">Основные сведения</a></li>
+                            <li><a href="#">Структура и организация управлением образовательной организацией</a></li>
+                            <li><a href="#">Документы</a></li>
+                            <li><a href="#">Образование</a></li>
+                            <li><a href="#">Образовательные стандарты</a></li>
+                            <li><a href="#">Руководство. Педагогический (научно-педагогический) состав</a></li>
+                            <li><a href="#">Материально-техническое обеспечение и оснащенность образовательного
+                                    процесса</a>
+                            </li>
+                            <li><a href="#">Стипендии и иные виды материальной поддержки</a></li>
+                            <li><a href="#">Платные образовательные услуги</a></li>
+                            <li><a href="#">Финансово-хозяйственная деятельность</a></li>
+                            <li><a href="#">Вакантные места для приема (перевода)</a></li>
+                        </div>
+                        <div class="text_burger2">
+                            <li><a href="#">Методические рекомендации для использования в работе при приеме детей,
+                                    прибывающих
+                                    стерритории Украины</a></li>
+                            <li><a href="#">Информация о возможностях получения психолого-педагогической, медицинской,
+                                    социальнойпомощи.</a></li>
+                            <li><a href="#">Родителям будущих первоклассников</a></li>
+                            <li><a href="#">Противодействие коррупции</a></li>
+                            <li><a href="#">Задать вопрос</a></li>
+                            <li><a href="#">Муниципальные услуги</a></li>
+                            <li><a href="#">Дистанционное образование</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
             <nav>
                 <ul>
                     </a>
@@ -49,11 +85,10 @@
 
 
 
-    
+
     <div class="main_div">
         <div class="owl-carousel">
             <div class="page1">
-                <!-- <img src="./logo/arrow-left.png"> -->
                 <img class="big_logo" src="./logo/big-logo.png">
                 <div class="text_page1">
                     <h2>Муниципальное автономное общеобразовательное <br>
@@ -61,10 +96,25 @@
                     <h3>Адрес МАОУ НОШ № 43: 622048, обл. Свердловская, г. Нижний Тагил, ул. Зари, д. 30</h3>
                     <h3>Телефон: (3435) 31-04-08 Электронная почта: skhool43@yandex.ru</h3>
                 </div>
-                <!-- <img src="./logo/arrow-rigth.png" class="arrow-rigth"> -->
             </div>
-            <img src="./logo/background.png" class="img_corusel">
-            <img src="./logo/background.png" class="img_corusel">
+            <div class="page1">
+                <img class="big_logo" src="./logo/big-logo.png">
+                <div class="text_page1">
+                    <h2>Муниципальное автономное общеобразовательное <br>
+                        учреждение начальная общеобразовательная школа №43</h2>
+                    <h3>Адрес МАОУ НОШ № 43: 622048, обл. Свердловская, г. Нижний Тагил, ул. Зари, д. 30</h3>
+                    <h3>Телефон: (3435) 31-04-08 Электронная почта: skhool43@yandex.ru</h3>
+                </div>
+            </div>
+            <div class="page1">
+                <img class="big_logo" src="./logo/big-logo.png">
+                <div class="text_page1">
+                    <h2>Муниципальное автономное общеобразовательное <br>
+                        учреждение начальная общеобразовательная школа №43</h2>
+                    <h3>Адрес МАОУ НОШ № 43: 622048, обл. Свердловская, г. Нижний Тагил, ул. Зари, д. 30</h3>
+                    <h3>Телефон: (3435) 31-04-08 Электронная почта: skhool43@yandex.ru</h3>
+                </div>
+            </div>
         </div>
 
         <div class="page2">
@@ -213,15 +263,15 @@
                             <label class="opros_text" for="answer">Да, очень довольны</label>
                         </div>
                         <div class="opros">
-                            <input type="checkbox" class="check_box"  id="answer_1">
+                            <input type="checkbox" class="check_box" id="answer_1">
                             <label class="opros_text" for="answer_1">Оставляет желать лучшего</label>
                         </div>
                         <div class="opros">
-                            <input type="checkbox" class="check_box"  id="answer_2">
+                            <input type="checkbox" class="check_box" id="answer_2">
                             <label class="opros_text" for="answer_2">Нет</label>
                         </div>
                         <div class="opros">
-                            <input type="checkbox" class="check_box"  id="answer_3">
+                            <input type="checkbox" class="check_box" id="answer_3">
                             <label class="opros_text" for="answer_3">Затрудняюсь ответить</label>
                         </div>
                     </div>
@@ -234,63 +284,64 @@
             <section>
                 <h5>Ссылки</h5>
                 <div class="cards_page7">
-                    <div class="card_page7">
+                    <a href="https://www.minobrnauki.gov.ru/" class="card_page7">
                         <img src="./logo/links__logo1.png" style="width: 7.321vw;height: 7.321vw;">
                         <div class="text_card">
                             <p class="card_text1">Официальный сайт</p>
                             <p class="card_text2">Министерство образования Российской Федерации</p>
                         </div>
-                    </div>
-                    <div class="card_page7">
+                    </a>
+                    <a class="card_page7" href="https://minobraz.egov66.ru/">
                         <img src="./logo/links__logo2.png" style="width: 7.833vw;height: 5.93vw;">
                         <div class="text_card">
                             <p class="card_text1">Официальный сайт</p>
-                            <p class="card_text2">Министерство образования и молодежной политики Свердловской области
+                            <p class="card_text2">Министерство образования и молодежной политики Свердловской
+                                области
                             </p>
                         </div>
-                    </div>
-                    <div class="card_page7">
+                    </a>
+                    <a class="card_page7" href="https://ntagil.org/">
                         <img src="./logo/links__logo3.png" style="width: 7.247vw;height: 6.442vw;">
                         <div class="text_card">
                             <p class="card_text1">Управление образования</p>
                             <p class="card_text2">Администрации города Нижний Тагил</p>
                         </div>
-                    </div>
-                    <div class="card_page7">
+                    </a>
+                    <a class="card_page7" href="https://upro-ntagil.ru/">
                         <img src="./logo/links__logo4.png" style="width: 21.962vw;height: 9.151vw;">
                         <div class="text_card">
                             <p class="card_text1"></p>
                             <p class="card_text2"></p>
                         </div>
-                    </div>
-                    <div class="card_page7">
+                    </a>
+                    <a class="card_page7" href="http://fcior.edu.ru/">
                         <img src="./logo/links__logo5.png" style="width: 6.149vw;height: 5.93vw;">
                         <div class="text_card">
                             <p class="card_text1">Официальный сайт</p>
                             <p class="card_text2">Федеральный центр информационно-образовательных ресурсов</p>
                         </div>
-                    </div>
-                    <div class="card_page7">
+                    </a>
+                    <a class="card_page7" href="https://sgo.egov66.ru/">
                         <img src="./logo/links__logo6.png" style="width: 8.565vw;height: 4.026vw;">
                         <div class="text_card">
                             <p class="card_text1">Официальный информационный портал</p>
                             <p class="card_text2">Единого государственного экзамена</p>
                         </div>
-                    </div>
-                    <div class="card_page7">
+                    </a>
+                    <a class="card_page7" href="https://www.edu.ru/">
                         <img src="./logo/links__logo7.png" style="width: 4.173vw;height: 3.66vw;">
                         <div class="text_card">
                             <p class="card_text1 card_text_pag7">ФЕДЕРАЛЬНЫЙ ПОРТАЛ</p>
                             <p class="card_text2 card_text_pag7">Российское образование </p>
                         </div>
-                    </div>
-                    <div class="card_page7">
+                    </a>
+                    <a class="card_page7" href="http://window.edu.ru/">
                         <img src="./logo/links__logo8.png" style="width: 21.962vw;height: 9.151vw;">
                         <div class="text_card">
                             <p class="card_text1"></p>
                             <p class="card_text2"></p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </section>
         </div>
