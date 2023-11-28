@@ -80,6 +80,37 @@ h2{
     letter-spacing: 0em;
     text-align: left;
 }
+.owl-nav{
+    font-size: 15vw;
+    height: 0
+    ;
+}
+.owl-prev span{
+    position: absolute;
+    top: 14vw;
+}
+.owl-next{
+    position: absolute;
+    top: 14vw;
+    right: 0;
+}
+.owl-dots{
+    position: absolute;
+    left: 45vw;
+    bottom: 3vw;
+}
+.owl-dot.active span{
+    background-color: red;
+}
+.owl-dot span {
+    display: inline-block;
+    width: 1vw;
+    height: 1vw;
+    margin: 0.5vw;
+    background-color: #FEC22E;
+    border-radius: 1vw;
+    border: solid #fec22e 0.4vw;
+}
 h3{
     color: #ffffff;
     font-size: 1.042vw;
@@ -88,7 +119,7 @@ h3{
     letter-spacing: 0em;
     text-align: left;
 }
-.ty{
+.text_page1{
     display: flex;
     flex-direction: column;
     margin-left: 5%;
@@ -112,7 +143,6 @@ h3{
 .page1{
     display: flex;
     align-items: center;
-    /* margin-left: 3.95vw; */
     background-image: url('../logo/background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +198,6 @@ h3{
     line-height: 0.99vw;
     color: #000;
     text-align: center;
-    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -185,7 +214,6 @@ h3{
     line-height: 0.99vw;
     color: #000;
     text-align: center;
-    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -240,7 +268,6 @@ h3{
     flex-direction: row;
     margin-bottom: 2.93vw;
     border-radius: 0.73vw 0.73vw 0px 0px;
-    /* border-bottom: 1px solid #FEC22E; */
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2vw;
@@ -330,7 +357,7 @@ fieldset {
     margin-bottom: 3vw;
 }
 .cards_page5{
-    /* width: 80vw; */
+
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -437,7 +464,6 @@ h6{
 .opross>p{
     color: #A1A1A1;
     text-align: center;
-    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -446,7 +472,6 @@ h6{
 .opross>p{
     color: #A1A1A1;
     text-align: center;
-    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
