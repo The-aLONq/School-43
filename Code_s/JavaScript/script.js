@@ -6,7 +6,7 @@ $(document).ready(function(){
     autoplay: true,
     autoplayTimeout: 3000,
     loop: true,
-    smartSpeed: 1000
+    smartSpeed: 1500
   });
 });
 let checkboxes = document.querySelectorAll('input[type="checkbox"]');
