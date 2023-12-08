@@ -118,7 +118,7 @@ header {
     padding: 0;
 }
 
-  /* элементы меню */
+/* элементы меню */
 .menu__item {
     display: block;
     color: #000;
@@ -128,19 +128,22 @@ header {
     font-size: 1.025vw;
     text-decoration: none;
     transition: background 0.3s;
-    height:auto;
-}
-.menu_item>h2{
     height: auto;
 }
-.search{
-    width: 2.416vw;    
+
+.menu_item>h2 {
+    height: auto;
 }
+
+.search {
+    width: 2.416vw;
+}
+
 .menu__item:hover {
     background-color: #CFD8DC;
 }
-  
-#menu__toggle:checked ~ .menu-box {
+
+#menu__toggle:checked~.menu-box {
     visibility: visible;
     top: 6.589vw;
     opacity: 100%;
@@ -171,8 +174,8 @@ header {
 }
 
 .text-header:hover .dropdown-menu {
-opacity: 1;
-visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 .dropdown-menu {
@@ -354,6 +357,7 @@ h3 {
 .news_imgs {
     height: 16.76vw;
 }
+
 .text_news {
     margin-top: 1.5vw;
     font-size: 0.833vw;
@@ -781,7 +785,30 @@ section>h5 {
 .card_text_pag7 {
     font-size: 1.318vw;
 }
-
+.page7-img-1{
+    width: 7.321vw;height: 7.321vw;
+}
+.page7-img-2{
+    width: 7.833vw;height: 5.93vw;
+}
+.page7-img-3{
+    width: 7.247vw;height: 6.442vw;
+}
+.page7-img-4{
+    width: 21.962vw;height: 9.151vw;
+}
+.page7-img-5{
+    width: 6.149vw;height: 5.93vw;
+}
+.page7-img-6{
+    width: 8.565vw;height: 4.026vw;
+}
+.page7-img-7{
+    width: 4.173vw;height: 3.66vw;
+}
+.page7-img-8{
+    width: 21.962vw;height: 9.151vw;
+}
 /*footer*/
 footer {
     display: flex;
@@ -821,4 +848,210 @@ p {
     display: flex;
     align-items: center;
     color: #ffffff;
+}
+
+@media screen and (max-width:475px) {
+    /*header*/
+    .wrapper{
+        justify-content: flex-start;
+    }
+    .main-menu-list {
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .img{
+        display: none;
+    }
+    .menu__item{
+        font-size: 9px;
+        margin-bottom: 6px;
+    }
+    .menu-box{
+        height: 78.5vw;
+    }
+    .burger1>li>h2{
+        font-size: 10px;
+    }
+    /*page0*/
+    h2 {
+        font-size: 13px;
+        height: auto;
+        line-height: 3.292vw;
+        margin-bottom: 10px;
+    }
+    h3 {
+        line-height: 3.354vw;
+        height: auto;
+        font-size: 10px;
+    }
+
+    /*page1*/
+    .section_title{
+        font-size: 20px;
+    }
+    .news_card {
+        width: 200px;
+        height: 280px;
+
+    }
+
+    .news_imgs {
+        width: 200px;
+        height: 160px;
+    }
+    .text_news{
+        font-size: 15px;
+    }
+    .data_news{
+        height: auto;
+        font-size: 15px;
+    }
+    .text_page2{
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+    /*page2*/
+    .imgs_page3 {
+    margin: 0.7vw;
+    width: 300px;
+    height: 180px;
+}
+    /*page3*/
+    .section_page4 {
+        display: flex;
+        flex-direction: column;
+        margin: 4vw 8vw;
+        align-items: center;
+    }
+    .img_page4 {
+        width: 88vw;
+        height: 110vw;
+    } 
+    h4{
+        font-size: 20px;
+        padding-bottom: 3vw;
+        padding-top: 2vw;
+    }.text_page4{
+        align-items: center;
+    }
+    .text_page4_p{
+        font-size: 12px;
+        line-height: 17px!important;
+    }
+    /*page4*/
+    .submit {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+.name_1 {
+    height: 20px;
+    width: 90vw;
+}
+.name_2{
+    width: 90vw;
+    height: 50px;
+}
+    .text_page4>fieldset>input::placeholder{
+        font-size: 10px;
+    }
+    .text_page4>fieldset>textarea::placeholder{
+        font-size: 10px;
+    }
+    /*page5*/
+    .card_1_3{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_3_5{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_page5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+    .card_page5>p{
+        width: 300px;
+        font-size: 18px;
+    }
+    .card_page5 img {
+    width: 300px;
+    height: 200px;
+}
+    /*page6*/
+    h6{
+        font-size: 25px;
+    }
+    .text_page6{
+        font-size: 17px;
+        height: auto;
+    }
+    .opross>.submit{
+        width: 21.59vw;
+        font-size: 12px!important;
+        margin-left: 38%;
+    }
+    .opros_text{
+        font-size: 15px;
+    }
+    .opross>p{
+        font-size: 11px;
+    }
+    input[type='checkbox']:checked::after {
+        width: 5px;
+        height: 5px;
+    }
+    /*page7*/
+    section>h5{
+        font-size: 20px;
+    }
+    .card_page7 {
+        width: 45vw;
+        height: 19vw;
+    }
+    .card_text1{
+        height: auto;
+        font-size: 11px;
+    }
+    .card_text2{
+        height: auto;
+        font-size: 11px;
+    }
+    .page7-img-1{
+        width: 32.321vw;height: 11.321vw;
+    }
+    .page7-img-2{
+        width: 14.833vw;height: 10.93vw;
+    }
+    .page7-img-3{
+        width: 15.247vw;height: 10.442vw;
+    }
+    .page7-img-4{
+        width: 42.962vw;height: 24.151vw;
+    }
+    .page7-img-5{
+        width: 19.149vw;height: 9.93vw;
+    }
+    .page7-img-6{
+        width: 13.565vw;height: 7.026vw;
+    }
+    .page7-img-7{
+        width: 10.173vw;height: 8.66vw;
+    }
+    .page7-img-8{
+        width: 40.962vw;height: 20.151vw
+    }
+    /*footer*/
+    .text_footer1 {
+        width: 45.16vw;
+        font-size: 11px;
+    }
+    .text_footer2{
+        font-size: 11px;
+    }
 }

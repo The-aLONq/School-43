@@ -4,9 +4,9 @@ $(document).ready(function(){
     dots: true,
     nav: true,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 7000,
     loop: true,
-    smartSpeed: 1500
+    smartSpeed: 2500
   });
 });
 let checkboxes = document.querySelectorAll('input[type="checkbox"]');
