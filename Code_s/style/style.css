@@ -853,112 +853,128 @@ p {
 @media screen and (max-width:475px) {
     /*header*/
     .wrapper{
-        justify-content: flex-start;
+        justify-content: space-between;
     }
     .main-menu-list {
         display: none;
     }
-    .search{
-        display: none;
-    }
-    .img{
-        display: none;
-    }
     .menu__item{
-        font-size: 9px;
-        margin-bottom: 6px;
+        font-size: 1.907vw;
+        margin-bottom: 1.271vw;
     }
     .menu-box{
-        height: 78.5vw;
+        height: 370.52px;
+    }
+    .logo{
+        width: 7.758vw;
+        height: 8.857vw;
+    }
+    .search{
+        width: 3.416vw;
+    }
+    .img{
+        width: 13.297vw;
+        height: 9.735vw;
+        flex-shrink: 0;
+        margin-left: 2vw;
     }
     .burger1>li>h2{
-        font-size: 10px;
+        font-size: 2.119vw;
     }
+    .menu__btn {
+    display: flex;
+    align-items: center;
+    width: 64.903vw;
+    height: 10.903vw;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 1.977vw;
+}
     /*page0*/
     h2 {
-        font-size: 13px;
+        font-size: 2.754vw;
         height: auto;
-        line-height: 3.292vw;
-        margin-bottom: 10px;
+        line-height: 15.538px;
+        margin-bottom: 2.119vw;
     }
     h3 {
-        line-height: 3.354vw;
+        line-height: 15.831px;
         height: auto;
-        font-size: 10px;
+        font-size: 2.119vw;
     }
 
     /*page1*/
     .section_title{
-        font-size: 20px;
+        font-size: 4.237vw;
     }
     .news_card {
-        width: 200px;
-        height: 280px;
+        width: 42.373vw;
+        height: 59.322vw;
 
     }
 
     .news_imgs {
-        width: 200px;
-        height: 160px;
+        width: 42.373vw;
+        height: 33.898vw;
     }
     .text_news{
-        font-size: 15px;
+        font-size: 3.178vw;
     }
     .data_news{
         height: auto;
-        font-size: 15px;
+        font-size: 3.178vw;
     }
     .text_page2{
-        font-size: 16px;
-        margin-bottom: 13px;
+        font-size: 3.39vw;
+        margin-bottom: 2.754vw;
     }
     /*page2*/
     .imgs_page3 {
-    margin: 0.7vw;
-    width: 300px;
-    height: 180px;
+    margin: 3.304px;
+    width: 63.559vw;
+    height: 38.136vw;
 }
     /*page3*/
     .section_page4 {
         display: flex;
         flex-direction: column;
-        margin: 4vw 8vw;
+        margin: 18.88px 37.76px;
         align-items: center;
     }
     .img_page4 {
-        width: 88vw;
-        height: 110vw;
+        width: 415.36px;
+        height: 519.2px;
     } 
     h4{
-        font-size: 20px;
-        padding-bottom: 3vw;
-        padding-top: 2vw;
+        font-size: 4.237vw;
+        padding-bottom: 14.16px;
+        padding-top: 9.44px;
     }.text_page4{
         align-items: center;
     }
     .text_page4_p{
-        font-size: 12px;
-        line-height: 17px!important;
+        font-size: 2.542vw;
+        line-height: 3.602vw!important;
     }
     /*page4*/
     .submit {
-    width: 100px;
-    height: 30px;
-    font-size: 14px;
+    width: 21.186vw;
+    height: 6.356vw;
+    font-size: 2.966vw;
 }
 .name_1 {
-    height: 20px;
-    width: 90vw;
+    height: 4.237vw;
+    width: 424.8px;
 }
 .name_2{
-    width: 90vw;
-    height: 50px;
+    width: 424.8px;
+    height: 10.593vw;
 }
     .text_page4>fieldset>input::placeholder{
-        font-size: 10px;
+        font-size: 2.119vw;
     }
     .text_page4>fieldset>textarea::placeholder{
-        font-size: 10px;
+        font-size: 2.119vw;
     }
     /*page5*/
     .card_1_3{
@@ -973,85 +989,85 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 6.356vw;
 }
     .card_page5>p{
-        width: 300px;
-        font-size: 18px;
+        width: 63.559vw;
+        font-size: 3.814vw;
     }
     .card_page5 img {
-    width: 300px;
-    height: 200px;
+    width: 63.559vw;
+    height: 42.373vw;
 }
     /*page6*/
     h6{
-        font-size: 25px;
+        font-size: 5.297vw;
     }
     .text_page6{
-        font-size: 17px;
+        font-size: 3.602vw;
         height: auto;
     }
     .opross>.submit{
-        width: 21.59vw;
-        font-size: 12px!important;
+        width: 101.905px;
+        font-size: 2.542vw!important;
         margin-left: 38%;
     }
     .opros_text{
-        font-size: 15px;
+        font-size: 3.178vw;
     }
     .opross>p{
-        font-size: 11px;
+        font-size: 2.331vw;
     }
     input[type='checkbox']:checked::after {
-        width: 5px;
-        height: 5px;
+        width: 1.059vw;
+        height: 1.059vw;
     }
     /*page7*/
     section>h5{
-        font-size: 20px;
+        font-size: 4.237vw;
     }
     .card_page7 {
-        width: 45vw;
-        height: 19vw;
+        width: 212.4px;
+        height: 89.68px;
     }
     .card_text1{
         height: auto;
-        font-size: 11px;
+        font-size: 2.331vw;
     }
     .card_text2{
         height: auto;
-        font-size: 11px;
+        font-size: 2.331vw;
     }
     .page7-img-1{
-        width: 32.321vw;height: 11.321vw;
+        width: 152.555px;height: 53.435px;
     }
     .page7-img-2{
-        width: 14.833vw;height: 10.93vw;
+        width: 70.012px;height: 51.59px;
     }
     .page7-img-3{
-        width: 15.247vw;height: 10.442vw;
+        width: 71.966px;height: 49.286px;
     }
     .page7-img-4{
-        width: 42.962vw;height: 24.151vw;
+        width: 202.781px;height: 113.993px;
     }
     .page7-img-5{
-        width: 19.149vw;height: 9.93vw;
+        width: 90.383px;height: 46.87px;
     }
     .page7-img-6{
-        width: 13.565vw;height: 7.026vw;
+        width: 64.027px;height: 33.163px;
     }
     .page7-img-7{
-        width: 10.173vw;height: 8.66vw;
+        width: 48.017px;height: 40.875px;
     }
     .page7-img-8{
-        width: 40.962vw;height: 20.151vw
+        width: 193.341px;height: 95.113px
     }
     /*footer*/
     .text_footer1 {
-        width: 45.16vw;
-        font-size: 11px;
+        width: 213.155px;
+        font-size: 2.331vw;
     }
     .text_footer2{
-        font-size: 11px;
+        font-size: 2.331vw;
     }
 }
